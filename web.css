@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+
+nav{
+    background: #f8c63c;
+    height: 60px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0 100px;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 10px;
+    font-size: 30px;
+}
+nav ul li a{
+    color: white;
+}
+
+.boxes{
+    display: inline-block;
+    margin-left: 300px;
+}
+    
+
+.dashboard{
+    background-color: white;
+    float: left;
+    padding: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    border-style: solid;
+    border-color: #f8c63c;
+    height: 600px;
+}
+ 
+.budget{
+    background-color: white;
+    float: left;
+    padding: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    border-style: solid;
+    border-color: #f8c63c;
+    height: 600px;
+}
+
+
+.checkbooks{
+    background-color: white;
+    float: left;
+    padding: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    border-style: solid;
+    border-color: #f8c63c;
+    height: 600px;
+}   
+
+.money{
+    background-color: white;
+    float: left;
+    padding: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    border-style: solid;
+    border-color: #f8c63c;
+    height: 600px;
+}
+
+.dash{
+    margin-bottom: 20px;
+}
+
+.bud{
+    margin-bottom: 20px;
+}
+
+.check{
+    margin-bottom: 20px;
+}
+
+.mon{
+    margin-bottom: 20px;
+}
+
+
+    
+
+ 
+.tryagain {
+    clear: both;
+    text-align: left;
+}
+
+.dash1 {
+    padding-top: 20px;
+}
+
+.dash2 {
+    padding-top: 20px;
+}
+
+.check2{
+    padding-top: 20px;
+}
+button{
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: center;
+    
+}
