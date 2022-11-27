@@ -42,14 +42,19 @@ nav ul li a{
 }
 
 .boxes{
-    display: inline-block;
-    margin-left: 300px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
     
 
 .dashboard{
     background-color: white;
-    float: left;
+    
     padding: 30px;
     margin-right: 20px;
     margin-top: 20px;
@@ -57,11 +62,12 @@ nav ul li a{
     border-style: solid;
     border-color: #f8c63c;
     height: 600px;
+    
 }
  
 .budget{
     background-color: white;
-    float: left;
+    
     padding: 30px;
     margin-right: 20px;
     margin-top: 20px;
@@ -69,12 +75,13 @@ nav ul li a{
     border-style: solid;
     border-color: #f8c63c;
     height: 600px;
+    
 }
 
 
 .checkbooks{
     background-color: white;
-    float: left;
+    
     padding: 30px;
     margin-right: 20px;
     margin-top: 20px;
@@ -82,11 +89,12 @@ nav ul li a{
     border-style: solid;
     border-color: #f8c63c;
     height: 600px;
+    
 }   
 
 .money{
     background-color: white;
-    float: left;
+    
     padding: 30px;
     margin-right: 20px;
     margin-top: 20px;
@@ -94,6 +102,7 @@ nav ul li a{
     border-style: solid;
     border-color: #f8c63c;
     height: 600px;
+    
 }
 
 .dash{
@@ -138,3 +147,10 @@ button{
     text-align: center;
     
 }
+
+#flex{
+    flex-direction: row;
+}
+    
+    
+
